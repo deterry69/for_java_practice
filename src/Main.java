@@ -77,7 +77,7 @@ public class Main {
         System.out.println("Ejercicio 9 | Array texto");
         String[] array = {"Caballo", "Ornitorrinco", "Nutria", "Foca", "Cangrejo"};
         for (int i = 0; i < array.length; i++) {
-            System.out.println("Cadena " + i + ": " + array[i]);
+            System.out.println("Cadena " + (i+1) + ": " + array[i]);
         }
     }
 }
